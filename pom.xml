@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>parent</artifactId>
-    <groupId>io.devcon5</groupId>
-    <version>1.1-SNAPSHOT</version>
+	<groupId>io.devcon5</groupId>
+	<version>1.2-SNAPSHOT</version>
 
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
@@ -295,5 +295,6 @@
             </build>
         </profile>
     </profiles>
+
 
 </project>
