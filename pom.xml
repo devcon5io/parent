@@ -10,7 +10,6 @@
     <packaging>pom</packaging>
     <description>Parent module defining global Maven project settings for all devcon5.io projects. The module
         contains the settings for publishing artifacts to MavenCentral, including code signing and javadoc.
-        The release mechanism follows the git-flow using the jgitflow plugin of Atlassian.
     </description>
 
     <url>https://github.com/devcon5io/${project.name}</url>
@@ -146,6 +145,9 @@
                                 <goals>
                                     <goal>jar</goal>
                                 </goals>
+                                <configuration>
+                                    <failOnError>false</failOnError>
+                                </configuration>
                             </execution>
                         </executions>
                         <configuration>
