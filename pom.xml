@@ -28,7 +28,8 @@
 
     <scm>
         <url>https://github.com/devcon5io/${project.key}/</url>
-        <connection>https://github.com/devcon5io/${project.key}.git</connection>
+        <connection>scm:git:https://github.com/devcon5io/${project.key}.git</connection>
+        <developerConnection>scm:git:https://github.com/devcon5io/${project.key}.git</developerConnection>
     </scm>
 
     <issueManagement>
