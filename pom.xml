@@ -26,9 +26,9 @@
         </license>
     </licenses>
     <scm>
+        <url>http://github.com/devcon5io/${project.key}/</url>
         <connection>scm:git:git://github.com/devcon5io/${project.key}.git</connection>
-        <developerConnection>scm:git:git://github.com/devcon5io/${project.key}.git</developerConnection>
-        <url>scm:git:git://github.com/devcon5io/${project.key}.git</url>
+        <developerConnection>scm:git:git@github.com:devcon5io/${project.key}.git</developerConnection>
     </scm>
 
     <issueManagement>
